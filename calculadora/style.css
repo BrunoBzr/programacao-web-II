@@ -1,0 +1,32 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.case{
+    display: block;
+    align-items: center;
+    background-color: aquamarine;
+    height: 500px;
+    width: 350px;
+}
+
+.tela{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 114, 81);
+    height: 200px;
+    width: 300px;
+}
+
+.inp{
+    margin: 20px;
+    height: 50px;
+    width: 250px;
+}
+
+.btn{
+    height: 50px;
+    width: 50px;   
+}
