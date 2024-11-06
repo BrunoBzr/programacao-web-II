@@ -3,25 +3,36 @@
     padding: 0px;
 }
 
-.case{
+.container{
+    display: flex;
+    justify-content: center;
     background-color: aquamarine;
     height: 500px;
     width: 350px;
+    border-radius: 10px;
 }
 
-.tela{
+.display{
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
     background-color: rgb(14, 114, 81);
     height: 200px;
     width: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
+
 .inp{
-    margin: 20px;
-    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 30px;
     width: 250px;
 }
 
-.btn{
+.teclado{
     height: 50px;
     width: 50px;   
 }
