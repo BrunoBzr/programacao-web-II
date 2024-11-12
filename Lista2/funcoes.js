@@ -15,6 +15,4 @@ function somaVetor(vetor, dobra){
     return soma
 }
 
-v = [3,5,7,10,12]
-
 export default {dobraVetor, somaVetor}
