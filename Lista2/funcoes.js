@@ -13,6 +13,7 @@ function somaVetor(vetor, dobra){
         soma[i] = vetor[i] + d[i]
     }
     return soma
+
 }
 
 export default {dobraVetor, somaVetor}
