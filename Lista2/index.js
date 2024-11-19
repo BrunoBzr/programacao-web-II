@@ -1,10 +1,7 @@
-import vetor from './funcoes.js'
+import func from './funcoes.js'
 
-let x = [10,2,8,25,15]
-let xd = vetor.dobraVetor(x)
+let vetor = [1,2,3,4,5]
 
-let resul = vetor.somaVetor(x,xd)
+let resultado = func.somarVetores(vetor,func.dobrarVetor(vetor))
 
-for(let i = 0; i<x.length;i++){
-    console.log(resul[i])
-}
+console.log(resultado)
