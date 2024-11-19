@@ -1,9 +1,10 @@
 import vetor from './funcoes.js'
 
-var x = [10,2,8,25,15]
+let x = [10,2,8,25,15]
+let xd = vetor.dobraVetor(x)
 
-var resultado = vetor.somaVetor(x, vetor.dobraVetor)
+let resul = vetor.somaVetor(x,xd)
 
-for(var i = 0; i<x.length;i++){
-    console.log(resultado[i])
+for(let i = 0; i<x.length;i++){
+    console.log(resul[i])
 }
