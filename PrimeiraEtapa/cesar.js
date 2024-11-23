@@ -3,15 +3,22 @@ function cifrarLetras(letra, chave){
     let posicaoLetra
     let letraCifrada
     for(let i=0; i<alfabeto.length;i++){
-        let restoChave
         if(letra == alfabeto[i]){
+            
             if(i+chave<alfabeto.length){
                 letraCifrada = alfabeto[i+chave]
-            }else{
-                restoChave = i+chave - (alfabeto.length-1)
-                let j = 0
-                letraCifrada = alfabeto[j+restoChave-1]
             }
+
+           if(i+chave>alfabeto.length-1){
+
+            let j = 0
+            chave = i + chave - (alfabeto.length-1)
+
+            if(j+chave<=alfabeto.length-1){
+                letraCifrada = alfabeto[j+chave]
+            }
+
+           }
         }
     }
     return letraCifrada
@@ -19,5 +26,5 @@ function cifrarLetras(letra, chave){
 
 
 
-let letra = cifrarLetras('u', 6)
+let letra = cifrarLetras('z', 2)
 console.log(letra)
