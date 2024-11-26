@@ -11,7 +11,7 @@ function cifrarLetras(letra, chave){
     let letraCifrada
 
     for(let i = 0; i < alfabeto.length; i++){
-        if(letra == alfabeto[i]){
+        if(letra === alfabeto[i]){
             
             if(i+chave<alfabeto.length){
                 letraCifrada = alfabeto[i+chave]
